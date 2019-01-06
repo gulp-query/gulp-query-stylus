@@ -16,7 +16,7 @@ Paste the code into your `gulpfile.js` and configure it
 let build = require('gulp-query')
   , stylus = require('gulp-query-stylus')
 ;
-cocktail(function (query) {
+build((query) => {
     query.plugins([stylus])
       .stylus('src/stylus/app.styl','css/','app')
 

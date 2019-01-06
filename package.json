@@ -1,6 +1,6 @@
 {
     "name": "gulp-query-stylus",
-    "version": "1.1.0",
+    "version": "1.1.1",
     "description": "This plugin provides automatic source maps, compiling Stylus into CSS, autoprefixing and minification",
     "main": "index.js",
     "author": "Marat Nuriev",
